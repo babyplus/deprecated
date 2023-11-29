@@ -1,0 +1,1 @@
+docker run -it --rm -v `pwd`/lib/mono/gac/YamlDotNet/:/usr/lib/mono/gac/YamlDotNet/ -v `pwd`:/tmp -w /tmp registry.cn-hangzhou.aliyuncs.com/babyplus/get:a23112443b1c.mono.6_12_0_182-slim mono test.exe
