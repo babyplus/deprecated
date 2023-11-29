@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y3/nCNYgLLj9E1GvPzFqsrh2FvQN9yJptroj90CreEyruLwWDfJE2GGHvHYs65RdKz1q+4RLjRadfrBYnd9boQ==",
+  "success": true,
+  "projectFilePath": "/App/DotNet.Docker.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/yamldotnet/13.7.1/yamldotnet.13.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
