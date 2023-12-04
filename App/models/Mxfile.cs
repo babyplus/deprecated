@@ -1,26 +1,28 @@
+using System.Xml.Serialization;
+
 namespace MyModels
 {
   public class Mxfile
   {
+    [XmlElement("Diagram")]
     public Diagram[]? diagrams { get; set; }
-    public void Print()
-    {
-        System.Console.WriteLine("1236547");
-    }
   }
 
   public class Diagram
   {
+    [XmlElement("MxGraphModel")]
     public MxGraphModel[]? mxGraphModels { get; set; }
   }
 
   public class MxGraphModel
   {
+    [XmlElement("Root")]
     public Root[]? roots { get; set; }
   }
 
   public class Root
   {
+    [XmlElement("Mxcell")]
     public Mxcell[]? mxcells { get; set; }
   }
 
