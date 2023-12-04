@@ -9,8 +9,7 @@ namespace MyTools
        public void Print(string yml)
        {
             var deserializer = new DeserializerBuilder().WithNamingConvention(UnderscoredNamingConvention.Instance).Build();
-            var p = deserializer.Deserialize<Person>(yml);
-            System.Console.WriteLine($"{p.Name} is {p.Age} years old" );
+            var p = deserializer.Deserialize<Mxfile>(yml);
        }
        public string Print<T>(T t)
        {

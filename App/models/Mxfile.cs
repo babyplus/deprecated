@@ -1,4 +1,4 @@
-﻿namespace MyModels
+namespace MyModels
 {
   public class Mxfile
   {
