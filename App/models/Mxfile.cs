@@ -3,6 +3,10 @@
   public class Mxfile
   {
     public Diagram[]? diagrams { get; set; }
+    public void Print()
+    {
+        System.Console.WriteLine("1236547");
+    }
   }
 
   public class Diagram
