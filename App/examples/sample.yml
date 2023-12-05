@@ -1,0 +1,62 @@
+diagrams:
+- mxGraphModels:
+  - roots:
+    - mxcells:
+      - id: 0000
+        parent: 0
+        value: value
+        style: style
+        vertex: vertex
+        mxGeometry:
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          as: 0
+          relative: 1
+          mxPoint:
+          - as: target
+          - as: source
+      - id: 0001
+        parent: 0
+        value: value
+        style: style
+        vertex: vertex
+        mxGeometry:
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          as: 0
+          relative: 0
+          mxPoint: 
+- mxGraphModels:
+  - roots:
+    - mxcells:
+      - id: 1000
+        parent: 1
+        value: value
+        style: style
+        vertex: vertex
+        mxGeometry:
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          as: 0
+          relative: 0
+          mxPoint: 
+      - id: 1001
+        parent: 1
+        value: value
+        style: style
+        vertex: vertex
+        mxGeometry:
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+          as: 0
+          relative: 0
+          mxPoint: 
+

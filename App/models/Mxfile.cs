@@ -34,7 +34,7 @@ namespace MyModels
     [XmlAttribute("parent")]
     public string? parent { get; set; }
     [XmlAttribute("value")]
-    public string? _value { get; set; }
+    public string? @value { get; set; }
     [XmlAttribute("style")]
     public string? style { get; set; }
     [XmlAttribute("vertex")]
@@ -54,7 +54,7 @@ namespace MyModels
     [XmlAttribute("height")]
     public string? height { get; set; }
     [XmlAttribute("as")]
-    public string? _as { get; set; }
+    public string? @as { get; set; }
     [XmlAttribute("relative")]
     public string? relative { get; set; }
     [XmlElement("mxPoint")]
@@ -64,6 +64,6 @@ namespace MyModels
   public class MxPoint
   {
     [XmlAttribute("as")]
-    public string? _as { get; set; }
+    public string? @as { get; set; }
   }
 }
