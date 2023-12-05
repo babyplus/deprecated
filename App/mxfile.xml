@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mxfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Diagram>
-    <MxGraphModel>
-      <Root>
-        <Mxcell>
-          <id>0000</id>
-          <parent>0</parent>
-        </Mxcell>
-        <Mxcell>
-          <id>0001</id>
-          <parent>0</parent>
-        </Mxcell>
-      </Root>
-    </MxGraphModel>
-  </Diagram>
-  <Diagram>
-    <MxGraphModel>
-      <Root>
-        <Mxcell>
-          <id>1000</id>
-          <parent>1</parent>
-        </Mxcell>
-        <Mxcell>
-          <id>1001</id>
-          <parent>1</parent>
-        </Mxcell>
-      </Root>
-    </MxGraphModel>
-  </Diagram>
-</Mxfile>
+<mxfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <diagram>
+    <mxGraphModel>
+      <root>
+        <mxcell id="0000" parent="0" value="value" style="style" vertex="vertex">
+          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="1">
+            <mxPoint as="target" />
+            <mxPoint as="source" />
+          </mxGeometry>
+        </mxcell>
+        <mxcell id="0001" parent="0" value="value" style="style" vertex="vertex">
+          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
+        </mxcell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram>
+    <mxGraphModel>
+      <root>
+        <mxcell id="1000" parent="1" value="value" style="style" vertex="vertex">
+          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
+        </mxcell>
+        <mxcell id="1001" parent="1" value="value" style="style" vertex="vertex">
+          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
+        </mxcell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
