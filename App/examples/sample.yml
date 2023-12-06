@@ -2,61 +2,109 @@ diagrams:
 - mxGraphModels:
   - roots:
     - mxcells:
-      - id: 0000
+      - id: 0
+      - id: 1
         parent: 0
-        value: value
-        style: style
-        vertex: vertex
+      - id: 10
+        parent: 1
+        value: " vlan10"
+        style: "html=1;outlineConnect=0;fillColor=#88E5C5;strokeColor=#288565;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;fontColor=#222222;perimeter=backbonePerimeter;backboneSize=20;shadow=0;sketch=0;opacity=100;fontSize=18;align=left"
+        vertex: 1
         mxGeometry:
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-          as: 0
+          x: 100
+          y: 50
+          width: 600
+          height: 100
+          as: geometry
+      - id: 11
+        parent: 1
+        value: " vlan11"
+        style: "html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;fontColor=#222222;perimeter=backbonePerimeter;backboneSize=20;shadow=0;sketch=0;opacity=100;fontSize=18;align=left"
+        vertex: 1
+        mxGeometry:
+          x: 100
+          y: 100
+          width: 600
+          height: 100
+          as: geometry
+      - id: 21
+        parent: 1
+        value: node01
+        style: "rounded=0;whiteSpace=wrap;html=1;"
+        vertex: 1
+        mxGeometry:
+          x: 100
+          y: 300
+          width: 100
+          height: 50
+          as: geometry
+      - id: 22
+        parent: 1
+        value: node02
+        style: "rounded=0;whiteSpace=wrap;html=1;"
+        vertex: 1
+        mxGeometry:
+          x: 300
+          y: 300
+          width: 100
+          height: 50
+          as: geometry
+      - id: 23
+        parent: 1
+        value: node03
+        style: "rounded=0;whiteSpace=wrap;html=1;"
+        vertex: 1
+        mxGeometry:
+          x: 500
+          y: 300
+          width: 100
+          height: 50
+          as: geometry
+      - id: 1021
+        parent: 1
+        edge: 1
+        style: "endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#288565;"
+        source: 10
+        target: 21
+        mxGeometry:
+          as: geometry
           relative: 1
           mxPoint:
-          - as: target
-          - as: source
-      - id: 0001
-        parent: 0
-        value: value
-        style: style
-        vertex: vertex
-        mxGeometry:
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-          as: 0
-          relative: 0
-          mxPoint: 
-- mxGraphModels:
-  - roots:
-    - mxcells:
-      - id: 1000
+          - as: sourcePoint
+          - as: targetPoint
+      - id: 1022
         parent: 1
-        value: value
-        style: style
-        vertex: vertex
+        edge: 1
+        style: "endArrow=none;html=1;rounded=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;strokeColor=#288565;"
+        source: 10
+        target: 22
         mxGeometry:
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-          as: 0
-          relative: 0
-          mxPoint: 
-      - id: 1001
+          as: geometry
+          relative: 1
+          mxPoint:
+          - as: sourcePoint
+          - as: targetPoint
+      - id: 1122
         parent: 1
-        value: value
-        style: style
-        vertex: vertex
+        edge: 1
+        style: "endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;"
+        source: 11
+        target: 22
         mxGeometry:
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-          as: 0
-          relative: 0
-          mxPoint: 
-
+          as: geometry
+          relative: 1
+          mxPoint:
+          - as: sourcePoint
+          - as: targetPoint
+      - id: 1123
+        parent: 1
+        edge: 1
+        style: "endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;"
+        source: 11
+        target: 23
+        mxGeometry:
+          as: geometry
+          relative: 1
+          mxPoint:
+          - as: sourcePoint
+          - as: targetPoint

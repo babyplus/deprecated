@@ -6,12 +6,6 @@ namespace MyTools
 {
     public class YmlTool
     {
-       public void Print(string yml)
-       {
-            var deserializer = new DeserializerBuilder().WithNamingConvention(UnderscoredNamingConvention.Instance).Build();
-            var p = deserializer.Deserialize<Mxfile>(yml);
-       }
-
        public string Print<T>(T t)
        {
             var serializer = new SerializerBuilder().WithNamingConvention(CamelCaseNamingConvention.Instance).Build();

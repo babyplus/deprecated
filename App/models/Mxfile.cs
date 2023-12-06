@@ -23,7 +23,7 @@ namespace MyModels
 
   public class Root
   {
-    [XmlElement("mxcell")]
+    [XmlElement("mxCell")]
     public Mxcell[]? mxcells { get; set; }
   }
 
@@ -39,6 +39,12 @@ namespace MyModels
     public string? style { get; set; }
     [XmlAttribute("vertex")]
     public string? vertex { get; set; }
+    [XmlAttribute("edge")]
+    public string? edge { get; set; }
+    [XmlAttribute("source")]
+    public string? source { get; set; }
+    [XmlAttribute("target")]
+    public string? target { get; set; }
     [XmlElement("mxGeometry")]
     public MxGeometry? mxGeometry { get; set; }
   }

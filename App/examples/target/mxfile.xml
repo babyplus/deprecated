@@ -3,27 +3,47 @@
   <diagram>
     <mxGraphModel>
       <root>
-        <mxcell id="0000" parent="0" value="value" style="style" vertex="vertex">
-          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="1">
-            <mxPoint as="target" />
-            <mxPoint as="source" />
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10" parent="1" value=" vlan10" style="html=1;outlineConnect=0;fillColor=#88E5C5;strokeColor=#288565;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;fontColor=#222222;perimeter=backbonePerimeter;backboneSize=20;shadow=0;sketch=0;opacity=100;fontSize=18;align=left" vertex="1">
+          <mxGeometry x="100" y="50" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" value=" vlan11" style="html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.bus;gradientDirection=north;fontColor=#222222;perimeter=backbonePerimeter;backboneSize=20;shadow=0;sketch=0;opacity=100;fontSize=18;align=left" vertex="1">
+          <mxGeometry x="100" y="100" width="600" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" value="node01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="100" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" value="node02" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="300" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" value="node03" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry x="500" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1021" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#288565;" edge="1" source="10" target="21">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
           </mxGeometry>
-        </mxcell>
-        <mxcell id="0001" parent="0" value="value" style="style" vertex="vertex">
-          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
-        </mxcell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram>
-    <mxGraphModel>
-      <root>
-        <mxcell id="1000" parent="1" value="value" style="style" vertex="vertex">
-          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
-        </mxcell>
-        <mxcell id="1001" parent="1" value="value" style="style" vertex="vertex">
-          <mxGeometry x="0" y="0" width="0" height="0" as="0" relative="0" />
-        </mxcell>
+        </mxCell>
+        <mxCell id="1022" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;strokeColor=#288565;" edge="1" source="10" target="22">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1122" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;" edge="1" source="11" target="22">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1123" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;strokeColor=#6c8ebf;" edge="1" source="11" target="23">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
