@@ -1,3 +1,5 @@
+# Quick start
+
 Compile the code.
 
 ```
@@ -8,4 +10,10 @@ Execute the program.
 
 ```
 bash run.sh
+```
+
+Get the target file.
+
+```
+cat App/examples/target/sample_01.xml
 ```

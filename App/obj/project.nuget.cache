@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "y3/nCNYgLLj9E1GvPzFqsrh2FvQN9yJptroj90CreEyruLwWDfJE2GGHvHYs65RdKz1q+4RLjRadfrBYnd9boQ==",
+  "dgSpecHash": "/s+s3fmFk0gBhHm4lSbPwzA/FIUoSPiAqi/QnZrw7US0UiDq+sMd/xxwDlZeLQcDZ3YFByG2Zvj+v1DYpyMsmg==",
   "success": true,
   "projectFilePath": "/App/DotNet.Docker.csproj",
   "expectedPackageFiles": [
+    "/root/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512",
     "/root/.nuget/packages/yamldotnet/13.7.1/yamldotnet.13.7.1.nupkg.sha512"
   ],
   "logs": []

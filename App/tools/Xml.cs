@@ -5,7 +5,7 @@ namespace MyTools
 {
   public class XmlTool
   {
-    public void Create<T>(T t, string filename)
+    static public void Create<T>(T t, string filename)
     {
         string? directoryPath = Path.GetDirectoryName(filename);
         if (!Directory.Exists(directoryPath) && directoryPath is not null) {
