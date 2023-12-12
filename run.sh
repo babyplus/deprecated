@@ -1,1 +1,1 @@
-docker run -it -v `pwd`/App:/tmp -v `pwd`/App/bin/Debug/net8.0:/App --entrypoint /App/DotNet.Docker --rm mcr.microsoft.com/dotnet/runtime:8.0 -i /tmp/examples/sample_01.yml -o /tmp/examples/target/sample_01.xml
+docker run -it -v `pwd`/App:/tmp -v `pwd`/App/bin/Debug/net8.0:/App --entrypoint /App/DotNet.Docker --rm mcr.microsoft.com/dotnet/runtime:8.0 yml2draw -i /tmp/examples/source/sample_01.yml -o /tmp/examples/target/sample_01.xml
