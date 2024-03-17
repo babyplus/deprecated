@@ -13,6 +13,8 @@ namespace MyModels
   {
     [XmlElement("mxGraphModel")]
     public MxGraphModel[]? mxGraphModels { get; set; }
+    [XmlAttribute("name")]
+    public string? name { get; set; }
   }
 
   public class MxGraphModel
@@ -24,10 +26,10 @@ namespace MyModels
   public class Root
   {
     [XmlElement("mxCell")]
-    public Mxcell[]? mxcells { get; set; }
+    public MxCell[]? mxcells { get; set; }
   }
 
-  public class Mxcell
+  public class MxCell
   {
     [XmlAttribute("id")]
     public string? id { get; set; }
